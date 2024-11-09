@@ -10,7 +10,7 @@ COPY . /app
 RUN ./mvnw clean package
 
 
-EXPOSE 8080
+EXPOSE 3000
 
 
 CMD ["java", "-jar", "target/yourapp.jar"]
